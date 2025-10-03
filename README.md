@@ -1,4 +1,18 @@
-# House-Price-Prediction---India
-Cracking Indian house prices! I used Linear Regression and Random Forest on features (sqft, bedrooms, baths) after data cleaning. Tools: Python, Scikit-learn. Goal: highly accurate price prediction
-This project tackles Indian house price prediction using machine learning. We analyzed a dataset of home features—like square footage, number of bedrooms, and location—to build a predictive model. After cleaning the data, we compared a basic Linear Regression model with a more powerful Random Forest Regressor. The Random Forest model proved superior, achieving a high R 
-2 score of 0.8839, demonstrating its effectiveness at capturing the complex, non-linear factors that drive house prices in India. Key tools used in this analysis include Python, Pandas, and Scikit-learn.
+🏠 Indian House Price Prediction: A Machine Learning Analysis
+This project presents a robust, end-to-end Machine Learning solution designed to predict residential property prices across India. We leverage a detailed dataset of housing attributes to understand market dynamics and develop a highly accurate predictive tool.
+
+🎯 Key Objectives
+Data Analysis: Perform rigorous data cleaning, preparation, and feature engineering.
+
+Model Comparison: Compare the performance of Linear Regression (baseline) and Random Forest Regressor (ensemble method).
+
+Accuracy: Achieve a highly accurate model for real-world price estimation.
+
+📈 Model Performance Highlights
+To find the optimal solution, two distinct regression models were trained. The final results clearly demonstrate the superiority of the ensemble approach:
+
+Top Model: The Random Forest Regressor
+
+Performance: Achieved a strong R2 score of 0.8839, significantly outperforming the Linear Regression baseline (R2: 0.7015).
+
+Error: Delivered the lowest Mean Squared Error (MSE), validating its ability to handle the complex, non-linear factors that drive property value.
